@@ -2,6 +2,8 @@
 
 Este repositorio contiene diversas presentaciones creadas con [Reveal.js](https://revealjs.com/), una biblioteca de código abierto para generar presentaciones en HTML.
 
+Accede desde https://sasogu.github.io/Presentaciones/
+
 ## 🚀 Cómo usar
 
 Para visualizar una presentación localmente, sigue estos pasos:
