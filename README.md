@@ -1,5 +1,3 @@
-Aquí tienes un README para tu repositorio de presentaciones con Reveal.js:
-
 ```markdown
 # Presentaciones con Reveal.js
 
