@@ -1,4 +1,3 @@
-```markdown
 # Presentaciones con Reveal.js
 
 Este repositorio contiene diversas presentaciones creadas con [Reveal.js](https://revealjs.com/), una biblioteca de código abierto para generar presentaciones en HTML.
@@ -77,7 +76,7 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo `LICENSE` 
 ¡Disfruta creando y compartiendo presentaciones interactivas con Reveal.js! 🎤🚀
 ```
 
-Es
+
 
 <p align="center">
   <a href="https://revealjs.com">
