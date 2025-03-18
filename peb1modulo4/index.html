@@ -1,0 +1,110 @@
+# Crear una presentación Reveal.js en HTML basada en el contenido proporcionado
+reveal_presentation = """
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Conciencia (Citta) y los Factores Mentales (Cetasika)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section>
+                <h2>La Conciencia (Citta) y los Factores Mentales (Cetasika)</h2>
+                <p>Un análisis budista de la mente</p>
+            </section>
+
+            <section>
+                <h3>Introducción</h3>
+                <p>La mente y los procesos mentales son fundamentales en la psicología budista.</p>
+                <p>El Abhidhamma analiza en profundidad los fenómenos mentales, destacando los conceptos de Citta (conciencia) y Cetasika (factores mentales).</p>
+            </section>
+
+            <section>
+                <h3>¿Qué es Citta?</h3>
+                <p>Citta es la conciencia, el aspecto de la mente que capta y se orienta hacia un objeto.</p>
+                <ul>
+                    <li>No es una entidad fija, sino un proceso en constante cambio.</li>
+                    <li>Se clasifica en 89 o 121 tipos según el Abhidhamma.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Clasificación del Citta</h3>
+                <ul>
+                    <li><b>Kāmāvacara Citta:</b> Relacionada con el mundo sensorial.</li>
+                    <li><b>Rūpāvacara Citta:</b> Estados meditativos del mundo de las formas.</li>
+                    <li><b>Arūpāvacara Citta:</b> Estados meditativos inmateriales.</li>
+                    <li><b>Lokuttara Citta:</b> Conciencia supramundana, vinculada al Nirvana.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Factores Mentales (Cetasika)</h3>
+                <p>Los Cetasikas son los factores mentales que acompañan cada momento de conciencia.</p>
+                <ul>
+                    <li>Son 52 según el Abhidhamma.</li>
+                    <li>Determinan la cualidad de la experiencia mental.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Tipos de Cetasikas</h3>
+                <ul>
+                    <li><b>Universales:</b> Presentes en todos los momentos de conciencia (ej. sensación, percepción).</li>
+                    <li><b>Particulares:</b> Surgen en circunstancias específicas (ej. esfuerzo, alegría).</li>
+                    <li><b>Bellamente saludables:</b> Promueven bienestar mental (ej. compasión, atención plena).</li>
+                    <li><b>Perjudiciales:</b> Generan sufrimiento (ej. apego, aversión, ignorancia).</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Interacción entre Citta y Cetasikas</h3>
+                <p>El Citta capta el objeto, mientras que los Cetasikas determinan la cualidad de la experiencia.</p>
+                <p>Ejemplo:</p>
+                <ul>
+                    <li>Si una persona recibe un insulto, puede reaccionar con aversión (Dosa) o con paciencia (Mettā).</li>
+                    <li>La misma experiencia puede generar diferentes respuestas según los Cetasikas presentes.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>El Camino hacia la Iluminación</h3>
+                <p>Comprender la interacción entre Citta y Cetasikas permite:</p>
+                <ul>
+                    <li>Observar la mente sin apego ni aversión.</li>
+                    <li>Desarrollar cualidades mentales positivas.</li>
+                    <li>Avanzar en la práctica meditativa hacia la liberación.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Conclusión</h2>
+                <p>La comprensión de Citta y Cetasikas es clave para el desarrollo espiritual.</p>
+                <p>A través de la meditación y el estudio, podemos transformar nuestra mente y alcanzar la liberación del sufrimiento.</p>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        Reveal.initialize();
+    </script>
+</body>
+</html>
+"""
+
+# Guardar la presentación en un archivo HTML
+file_path = "/mnt/data/citta_cetasika_reveal.html"
+
+with open(file_path, "w", encoding="utf-8") as file:
+    file.write(reveal_presentation)
+
+# Proporcionar el archivo al usuario
+file_path
